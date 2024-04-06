@@ -1,9 +1,9 @@
 n=int(input())
 i=1
-while (i>=n):
+while (i<=n):
     j=1
-    while (j>=i):
+    while (j<=i):
         print('*' ,  end=' ')
-        j=j-1
+        j=j+1
     print()
     i=i+1
